@@ -28,8 +28,6 @@ import fs from "fs";
     
 async function startLogoDownloader() {
     const companyName = "Google";
-    const jobs: Job[] = [];
-    const inactiveUrls: string[] = [];
     puppeteer.use(StealthPlugin());
     const browser = await puppeteer.launch({ headless: false });
     const browserContext = await browser.createIncognitoBrowserContext();
@@ -85,7 +83,7 @@ import { startLogoDownloader } from "../common/logo_downloader";
 })();
 ```
 ### TODO
-1. You can generally store an image in an S3 bucket and store the path in the database or store it in DB as a blob. There are various pros and cons associated with each approach. Every few years this discussion comes up in DB mailing lists as `To blob or Not to blob` . You can google that expression. :)
+1. You can generally store an image in an S3 bucket and store the path in the database or store it in DB as a blob. There are various pros and cons associated with each approach. Every few years this discussion comes up in DB mailing lists as `To blob or Not to blob`. You can google that expression. :)
 ### Key take aways from the script.
 1. I have hard coded the company name - "Google" to demonstrate the example. You can pass an array of companies and run it.
 2. Currently, there is no mechanism in the code to retry failed companies.
