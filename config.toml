@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 
 canonifyurls = true
 paginate = 20
-pygmentsStyle = "b2"
+pygmentsStyle = "vs"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 
