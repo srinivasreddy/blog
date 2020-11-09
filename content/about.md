@@ -10,14 +10,14 @@ The list of projects I have contributed to:
 
 1. Django
 2. Ipython
-3. pytest
+3. Pytest
 4. CPython - (Python programming language).
 5. Rust - Programming language.
-6. MongoMock - In-memory mocking library for MongoDB with minimal feature set.
+6. MongoMock - In-memory mocking library for MongoDB with a minimal feature set.
 7. Cargo - Rust package manager.
 8. Pandas - Python data manipulation library.
 
-And the projects i have created, you can find the list [here](https://srinivasreddy.dev/projects)
+And the projects I have created, you can find the list [here](https://srinivasreddy.dev/projects)
 
 If you have a consulting gig(s), You can always contact me at thatiparthysreenivas@gmail.com.
 
