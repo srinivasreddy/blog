@@ -14,7 +14,7 @@ In this post, we are going to examine how to setup python-crontab correctly and 
 
 For the uninitiated, [python-crontab](https://gitlab.com/doctormo/python-crontab/) is a python package for editing cron table aka crontab used for scheduling the jobs run by cron.
 
-I have setup a cron job which runs for an every hour. I have a file `every_hour.py` that contains the following code and sets up crontable entry to run `cron.py` for every hour.
+I have setup a cron job which runs for every hour. I have a file `every_hour.py` that contains the following code and sets up crontable entry to run `cron.py` for every hour.
 
 
 ```python
