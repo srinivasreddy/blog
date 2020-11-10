@@ -1,5 +1,5 @@
 +++ 
-draft = false
+draft = true
 date = 2020-11-10T10:32:22+05:30
 title = "Comments Policy"
 description = ""
